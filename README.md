@@ -1,6 +1,6 @@
 # Crowdcoin
 
-(https://nuxtjs.org/)[Nuxtjs/Vuejs 2] version of (https://github.com/StephenGrider/EthereumCasts/tree/master/kickstart)[Steven Grider's kickstart application]
+[Nuxtjs/Vuejs 2](https://nuxtjs.org/) version of [Steven Grider's kickstart application(https://github.com/StephenGrider/EthereumCasts/tree/master/kickstart)
 
 ## Build Setup
 ``` bash
@@ -17,7 +17,7 @@ $ npm run generate
 
 ## Notes
 
-- The vue equivalent of semantic-ui-react is (https://semantic-ui-vue.github.io/)[semantic-ui-vue]. The `plugins/semantic-ui-vue` file shows how to integrate it here into your app.
+- The vue equivalent of semantic-ui-react is [semantic-ui-vue](https://semantic-ui-vue.github.io/). The `plugins/semantic-ui-vue` file shows how to integrate it here into your app.
 - The nuxt.config.js file is where you can import the semantic-ui-css from the CDN.
 
 
