@@ -1,6 +1,6 @@
 # Crowdcoin
 
-[Nuxtjs/Vuejs 2](https://nuxtjs.org/) version of [Steven Grider's kickstart application(https://github.com/StephenGrider/EthereumCasts/tree/master/kickstart)
+[Nuxtjs/Vuejs 2](https://nuxtjs.org/) version of [Steven Grider's kickstart application](https://github.com/StephenGrider/EthereumCasts/tree/master/kickstart)
 
 ## Build Setup
 ``` bash
