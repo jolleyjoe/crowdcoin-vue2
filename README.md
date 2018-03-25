@@ -17,7 +17,7 @@ $ npm run generate
 
 ## Notes
 
-- The vue equivalent of semantic-ui-react is [semantic-ui-vue](https://semantic-ui-vue.github.io/). The `plugins/semantic-ui-vue` file shows how to integrate it here into your app.
-- The nuxt.config.js file is where you can import the semantic-ui-css from the CDN.
+- The vue equivalent of semantic-ui-react is [semantic-ui-vue](https://semantic-ui-vue.github.io/). The `plugins/semantic-ui-vue` file had to me manually created to integrate the library.
+- The `nuxt.config.js` file is where you can import the semantic-ui-css from the CDN.
 
 
