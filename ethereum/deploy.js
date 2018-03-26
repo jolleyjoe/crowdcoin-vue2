@@ -3,7 +3,7 @@ const Web3 = require('web3');
 // const { interface, bytecode } = require('./compile');
 const compiledFactory = require('./build/CampaignFactory.json');
 
-const infuraAPI = 'https://rinkeby.infura.io/IRIlUjaSjSwoN6qnMycN';
+const infuraAPI = 'https://rinkeby.infura.io/[your infura API key]';
 const mnemonic = 'lobster wage seek field salon walk alert curtain advance crack athlete case';
 
 const provider = new HDWalletProvider(mnemonic, infuraAPI);
