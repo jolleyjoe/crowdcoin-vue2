@@ -16,6 +16,7 @@ $ npm run generate
 ```
 
 ## Notes
+- You will need to include your own addresses/infura API keys in the correct places in the `ethereum` folder
 
 - The vue equivalent of semantic-ui-react is [semantic-ui-vue](https://semantic-ui-vue.github.io/). The `plugins/semantic-ui-vue` file was manually created to integrate the library.
 
