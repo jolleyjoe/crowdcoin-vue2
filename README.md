@@ -45,13 +45,13 @@ In the `layouts/default.vue` file, you can set your semantic-ui container and se
 
 ## Pages
 The `pages` folder contents are mapped to your app's routes: 
-e.g. `pages/index.vue` will be the `/` route, `pages/campaigns/new` will be the `/campaigns/new` route.
+e.g. `pages/index.vue` will be the `/` route, `pages/campaigns/new` will be the `localhost:3000/campaigns/new` route.
 
 
-Undescored folder names signify a dynamic route param e.g. `pages/campaigns/_address/index.vue` will be accessed via `/campaigns/0x6b4.................`. 
+Undescored folder names signify a dynamic route param e.g. `pages/campaigns/_address/index.vue` will be accessed via `localhost:3000/campaigns/0x6b4.................`. 
 
 
-An underscored folder can also have children e.g. `pages/campaigns/_address/requests/index.vue` will be all the requests for a particular campaign address at `/pages/campaigns/0x6b4................./requests`.
+An underscored folder can also have children e.g. `pages/campaigns/_address/requests/index.vue` will be all the requests for a particular campaign address at `localhost:3000/campaigns/0x6b4................./requests`.
 
 ---
 
