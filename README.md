@@ -53,6 +53,30 @@ Undescored folder names signify a dynamic route param e.g. `pages/campaigns/_add
 
 An underscored folder can also have children e.g. `pages/campaigns/_address/requests/index.vue` will be all the requests for a particular campaign address at `localhost:3000/campaigns/0x6b4................./requests`.
 
+## Params/Data
+
+Dynamic params in a url can be accessed in the Vue template scripts with the `{ params }` object.
+
+Nuxt supports async data initialization as well : https://nuxtjs.org/api/ 
+
+e.g. where `params.address` is referring to the `_address` of the page..
+```javascript
+async asyncData ({ params }) {
+  const address = params.address
+  const campaign = Campaign(address)
+  const requestsCount = await campaign.methods.getRequestsCount().call();
+  const approversCount = await campaign.methods.approversCount().call();
+  const requests = await Promise.all(
+    Array(parseInt(requestsCount))
+     .fill()
+     .map( (element, index) => {
+       return campaign.methods.requests(index).call(); 
+    })
+  );
+  return { address, requests, requestsCount, approversCount }
+}
+```
+
 ---
 
 ## Components
